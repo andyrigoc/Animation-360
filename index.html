@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Bar Preview</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <form class="search-bar" role="search">
+      <label class="search-label" for="search-input">Categories</label>
+      <input id="search-input" name="q" type="search" placeholder="Search..." aria-label="Search" />
+      <button type="submit" class="search-button" aria-label="Submit search">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle class="magnifier-circle" cx="10" cy="10" r="7" />
+          <path class="magnifier-handle" d="M14.5 14.5 L20 20" />
+        </svg>
+      </button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
